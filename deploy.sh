@@ -11,3 +11,8 @@ openstack overcloud deploy \
 openstack overcloud deploy \
   --templates ~/tripleo-deploy/templates \
   -e ~/tripleo-deploy/environments/swift-scale.yaml;
+
+
+openstack overcloud deploy \
+  --templates ~/tripleo-deploy/templates \
+  -e ~/tripleo-deploy/environments/swift-scale-2.yaml;
