@@ -1,0 +1,6 @@
+# Scale swift with ring building, step 2 enabling ring building
+# again after copying the .ring.gz files
+parameter_defaults:
+  ObjectStorageCount: 2
+  SwiftRingBuild: true
+  RingBuild: true

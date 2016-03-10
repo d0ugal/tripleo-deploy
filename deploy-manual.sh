@@ -6,13 +6,12 @@ source ~/stackrc;
 
 openstack overcloud deploy \
   --templates ~/tripleo-deploy/templates \
-  -e ~/tripleo-deploy/environments/swift-create.yaml;
+  -e ~/tripleo-deploy/environments/swift-manual-create.yaml;
+
+echo "Setup the ring manually."
 
 openstack overcloud deploy \
   --templates ~/tripleo-deploy/templates \
-  -e ~/tripleo-deploy/environments/swift-scale.yaml;
+  -e ~/tripleo-deploy/environments/swift-manual-scale.yaml;
 
-
-openstack overcloud deploy \
-  --templates ~/tripleo-deploy/templates \
-  -e ~/tripleo-deploy/environments/swift-scale-2.yaml;
+echo "Copy the ring over to the new node"
