@@ -2,6 +2,8 @@
 
 source ~/stackrc;
 
+~/tripleo-common/scripts/tripleo.sh --overcloud-delete;
+
 openstack overcloud deploy \
   --templates ~/tripleo-deploy/templates \
   -e ~/tripleo-deploy/environments/swift-create.yaml;
