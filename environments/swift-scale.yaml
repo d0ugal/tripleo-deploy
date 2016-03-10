@@ -1,3 +1,4 @@
 parameter_defaults:
   ObjectStorageCount: 2
   SwiftRingBuild: false
+  RingBuild: false
