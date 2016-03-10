@@ -14,6 +14,4 @@ openstack overcloud deploy \
 
 echo "Copy the ring over to the new node and then run"
 
-echo "openstack overcloud deploy
-  --templates ~/tripleo-deploy/templates
-  -e ~/tripleo-deploy/environments/swift-ringbuild-scale-step-1.yaml;";
+echo "openstack overcloud deploy --templates ~/tripleo-deploy/templates -e ~/tripleo-deploy/environments/swift-ringbuild-scale-step-2.yaml;";
