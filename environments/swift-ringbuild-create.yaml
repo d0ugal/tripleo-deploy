@@ -1,5 +1,0 @@
-# Deploy swift with ring building. The first deploy is easy...
-parameter_defaults:
-  ObjectStorageCount: 1
-  SwiftRingBuild: true
-  RingBuild: true

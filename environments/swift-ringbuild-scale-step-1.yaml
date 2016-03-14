@@ -1,6 +1,0 @@
-# Scale swift with ring building, step 1, add the new node
-# without ring building
-parameter_defaults:
-  ObjectStorageCount: 2
-  SwiftRingBuild: false
-  RingBuild: false

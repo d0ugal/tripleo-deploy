@@ -1,5 +1,0 @@
-# Deploy swift without ring building, you then need to do it all
-# yourself.
-parameter_defaults:
-  ObjectStorageCount: 1
-
